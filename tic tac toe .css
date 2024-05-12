@@ -1,0 +1,26 @@
+#board {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+}
+
+.cell {
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 36px;
+}
+
+.x {
+	color: red;
+}
+
+.o {
+	color: blue;
+}
